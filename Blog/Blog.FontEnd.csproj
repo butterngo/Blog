@@ -1,0 +1,178 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp1.1</TargetFramework>
+    <PackageTargetFallback>portable-net45+win8</PackageTargetFallback>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="wwwroot\images\**" />
+    <Content Remove="wwwroot\images\**" />
+    <EmbeddedResource Remove="wwwroot\images\**" />
+    <None Remove="wwwroot\images\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="wwwroot\css\bo\Login_Site.css" />
+    <Content Include="wwwroot\css\bo\Site.css" />
+    <Content Include="wwwroot\css\font-awesome.css" />
+    <Content Include="wwwroot\css\font-awesome.min.css" />
+    <Content Include="wwwroot\favicon.ico" />
+    <Content Include="wwwroot\fonts\css\font-awesome.css" />
+    <Content Include="wwwroot\fonts\css\font-awesome.min.css" />
+    <Content Include="wwwroot\fonts\fontawesome-webfont.eot" />
+    <Content Include="wwwroot\fonts\fontawesome-webfont.svg" />
+    <Content Include="wwwroot\fonts\fontawesome-webfont.ttf" />
+    <Content Include="wwwroot\fonts\fontawesome-webfont.woff" />
+    <Content Include="wwwroot\fonts\fontawesome-webfont.woff2" />
+    <Content Include="wwwroot\fonts\FontAwesome.otf" />
+    <Content Include="wwwroot\fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="wwwroot\fonts\glyphicons-halflings-regular.svg" />
+    <Content Include="wwwroot\fonts\glyphicons-halflings-regular.ttf" />
+    <Content Include="wwwroot\fonts\glyphicons-halflings-regular.woff" />
+    <Content Include="wwwroot\fonts\glyphicons-halflings-regular.woff2" />
+    <Content Include="wwwroot\css\clean-blog.css" />
+    <Content Include="wwwroot\css\clean-blog.min.css" />
+    <Content Include="wwwroot\img\about-bg.jpg" />
+    <Content Include="wwwroot\img\contact-bg.jpg" />
+    <Content Include="wwwroot\img\home-bg.jpg" />
+    <Content Include="wwwroot\img\home-logo.jpg" />
+    <Content Include="wwwroot\img\post-bg.jpg" />
+    <Content Include="wwwroot\img\post-sample-image.jpg" />
+    <Content Include="wwwroot\js\clean-blog\clean-blog.js" />
+    <Content Include="wwwroot\js\clean-blog\clean-blog.min.js" />
+    <Content Include="wwwroot\js\clean-blog\contact_me.js" />
+    <Content Include="wwwroot\js\clean-blog\jqBootstrapValidation.js" />
+    <Content Include="wwwroot\vendor\css\bootstrap-theme.css" />
+    <Content Include="wwwroot\vendor\css\bootstrap-theme.css.map" />
+    <Content Include="wwwroot\vendor\css\bootstrap-theme.min.css" />
+    <Content Include="wwwroot\vendor\css\bootstrap-theme.min.css.map" />
+    <Content Include="wwwroot\vendor\css\bootstrap.css" />
+    <Content Include="wwwroot\vendor\css\bootstrap.css.map" />
+    <Content Include="wwwroot\vendor\css\bootstrap.min.css" />
+    <Content Include="wwwroot\vendor\css\bootstrap.min.css.map" />
+    <Content Include="wwwroot\vendor\js\additional-methods.js" />
+    <Content Include="wwwroot\vendor\js\bootstrap.js" />
+    <Content Include="wwwroot\vendor\js\bootstrap.min.js" />
+    <Content Include="wwwroot\vendor\js\core.js" />
+    <Content Include="wwwroot\vendor\js\jquery.js" />
+    <Content Include="wwwroot\vendor\js\jquery.min.js" />
+    <Content Include="wwwroot\vendor\js\jquery.min.map" />
+    <Content Include="wwwroot\vendor\js\jquery.slim.js" />
+    <Content Include="wwwroot\vendor\js\jquery.slim.min.js" />
+    <Content Include="wwwroot\vendor\js\jquery.slim.min.map" />
+    <Content Include="wwwroot\vendor\js\jquery.validate.js" />
+    <Content Include="wwwroot\vendor\js\jquery.validate.min.js" />
+    <Content Include="wwwroot\vendor\js\jquery.validate.unobtrusive.min.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_ar.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_az" />
+    <Content Include="wwwroot\vendor\js\localization\messages_az.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_bg.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_bn_BD.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_ca.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_cs.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_da.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_de.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_el.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_es.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_es_AR.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_es_PE.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_et.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_eu.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_fa.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_fi.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_fr.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_ge.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_gl.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_he.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_hr.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_hu.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_hy_AM.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_id.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_is.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_it.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_ja.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_ka.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_kk.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_ko.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_lt.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_lv.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_mk.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_my.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_nl.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_no.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_pl.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_pt_BR.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_pt_PT.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_ro.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_ru.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_si.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_sk.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_sl.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_sr.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_sr_lat.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_sv.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_th.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_tj.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_tr.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_uk.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_ur.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_vi.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_zh.js" />
+    <Content Include="wwwroot\vendor\js\localization\messages_zh_TW.js" />
+    <Content Include="wwwroot\vendor\js\localization\methods_de.js" />
+    <Content Include="wwwroot\vendor\js\localization\methods_es_CL.js" />
+    <Content Include="wwwroot\vendor\js\localization\methods_fi.js" />
+    <Content Include="wwwroot\vendor\js\localization\methods_nl.js" />
+    <Content Include="wwwroot\vendor\js\localization\methods_pt.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Areas\Bo\Views\Dashbroad\" />
+    <Folder Include="Areas\Bo\Views\Manage\" />
+    <Folder Include="Views\Home\" />
+  </ItemGroup>
+  <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="1.0.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\fonts\fontawesome-webfont.eot" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.ttf" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.woff" />
+    <None Include="wwwroot\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\fonts\FontAwesome.otf" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.eot" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.svg" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.ttf" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.woff" />
+    <None Include="wwwroot\fonts\glyphicons-halflings-regular.woff2" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="6.0.1" />
+    <PackageReference Include="jQuery.Validation.Unobtrusive" Version="2.0.20710" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="1.1.1" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc" Version="1.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.StaticFiles" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer.Design" Version="1.1.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="1.1.0" />
+    <PackageReference Include="Microsoft.Extensions.Logging.Debug" Version="1.1.1" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.BrowserLink" Version="1.1.0" />
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="1.1.0" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Blog.Api\Blog.Api.csproj" />
+    <ProjectReference Include="..\Blog.Common\Blog.Common.csproj" />
+    <ProjectReference Include="..\Blog.Core\Blog.Core.csproj" />
+    <ProjectReference Include="..\Blog.Dto\Blog.Dto.csproj" />
+    <ProjectReference Include="..\Blog.Mapper\Blog.Mapper.csproj" />
+    <ProjectReference Include="..\Blog.ViewModel\Blog.ViewModel.csproj" />
+    <ProjectReference Include="..\WebApi.JWT\WebApi.JWT.csproj" />
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,25 @@
+﻿@model Blog.ViewModel.Bo.CategoryViewModel
+@{
+    ViewData["Title"] = "Manage Category";
+}
+
+<div class="example">
+    <div class="container">
+        <div class="row">
+            <h2>@ViewBag.Action Category</h2>
+            <form>
+                <input type="hidden" asp-for="UrlSlug" />
+                <div class="form-group">
+                    <label>Category Name: </label>
+                    <input class="form-control" asp-for="Name" placeholder="Category Name">
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" asp-for="IsActive"> Enable</label>
+                </div>
+                <button type="submit" class="btn btn-primary">@ViewBag.Action</button>
+            </form>
+        </div>
+    </div>
+
+</div>

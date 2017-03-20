@@ -1,0 +1,20 @@
+@model Blog.ViewModel.Bo.LoginViewModel
+@{
+    ViewData["Title"] = "Login";
+    Layout = null;
+}
+<link href="~/css/bo/Login_Site.css" rel="stylesheet">
+<div class="login-page">
+    <div class="form">
+        <form asp-controller="Account" asp-action="Login" method="post" role="form" class="login-form">
+            <input type="text" asp-for="Email" placeholder="Email" />
+            <span asp-validation-for="Email" class="text-danger"></span>
+            <input type="password" asp-for="Password" placeholder="password" />
+            <span asp-validation-for="Password" class="text-danger"></span>
+            <button type="submit">login</button>
+        </form>
+    </div>
+</div>
+<script src="~/vendor/js/jquery.js"></script>
+<script type="text/javascript" src="~/vendor/js/jquery.validate.min.js"></script>
+<script type="text/javascript" src="~/vendor/js/jquery.validate.unobtrusive.min.js"></script>
